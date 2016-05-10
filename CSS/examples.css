@@ -1,0 +1,76 @@
+@CHARSET "ISO-8859-1";
+/* Reset CSS
+ * --------------------------------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 550 ;
+    margin: 250;
+	position: relative;
+	background-image:url(../Images/ricepaper3.png)
+}
+
+a{
+	text-decoration:none;
+}
+table {
+    border-spacing: 0;
+}
+fieldset,img {
+	max-width: 40%;
+	max-height: auto;
+    width: auto\9; /* ie8 */
+
+
+}
+strong{
+	font-weight: bold;
+}
+
+caption,th {
+    text-align: left;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#444;
+}
+q:before,q:after {
+    content:'';
+}
+
+
+/* Custom CSS
+ * --------------------------------------- */
+body{
+	font-family: 'Dancing Script', cursive;
+	color: #333;
+	color: rgba(0,0,0,0.5);
+}
+.wrap{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+}
+h1{
+	font-size: 4em;
+}
+p{
+	font-size: 2em;
+}
+.intro p{
+	width: relative;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+.section{
+	text-align:center;
+	position: relative;
+}
+
+
+
+
